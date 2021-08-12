@@ -1,0 +1,55 @@
+{
+    "allOutfits": "Tutti",
+    "occasions": "Occasioni",
+    "styles": "Stili",
+    "flamesLogo": "Logo Flames",
+
+    "outfitsForYou": "Outfit per te.",
+    "search": "Cerca",
+    "whatImatchWith": "Cosa mi sta bene... (e.g. 'Maglietta rossa')?",
+
+    "startFromWhatYouNeed": "Inizia da ciò di cui hai bisogno",
+    "findTheRightOutfit": "Trova l'outfit perfetto per ogni occasione",
+    "casualFormalOrSporty": "Casual, formale o sportivo? Lasciati ispirare dai tuoi stili preferiti",
+
+    "findYourInspiration": "Trova l'ispirazione",
+    "popular": "Popolari",
+    "latest": "Recenti",
+    "outiftPreview": "Anteprima outfit",
+    "articles": "{count} articolo | {count} articoli",
+    "stylist": "Stilista",
+    "occasion": "Occasione",
+    "style": "Stile",
+    "article": "Articolo",
+
+    "results": "Nessun risultato | {count} risultato | {count} risultati",
+    "orderBy": "Ordina per",
+    "relevance": "Rilevanza",
+    "price": "Prezzo",
+    "reset": "Resetta",
+    "filterBy": "Filtra per",
+    "apply": "Applica",
+    "wearability": "Vestibilità",
+    "priceEUR": "Prezzo €",
+
+    "totalPrice": "Prezzo totale",
+    "buyTheOutfit": "Acquista l'outfit",
+    "chooseYourSize": "Scegli la tua taglia",
+    "selection": "Selezione",
+    "buySingleItem": "Acquista singolo articolo",
+    "available": "Disponibile",
+    "notAvailable": "Non disponibile",
+    "brand": "Brand",
+    "color": "Colore",
+    "productDetails": "Dettagli sul prodotto",
+    "size": "Taglia",
+    "sizeGuide": "Guida alle taglie",
+    "galleryImage": "Immagine galleria",
+
+    "seeAllOccasionOutfits": "Vedi tutti gli outfit da '{occasionName}'",
+    "outfitsForEveryOccasion": "Outfit per ogni occasione",
+
+    "outfitStyles": "Stili outfit",
+    "styleOutfits": "Outfit {styleName}",
+    "seeAllStyleOutfits": "Vedi tutti gli outfit '{styleName}'"
+}

@@ -1,0 +1,56 @@
+{
+    "allOutfits": "All outfits",
+    "occasions": "Occasions",
+    "styles": "Styles",
+    "flamesLogo": "Flames Logo",
+
+    "outfitsForYou": "Outfits for you.",
+    "search": "Search",
+    "whatImatchWith": "What I match with... (e.g. 'Red t-shirt')?",
+
+    "startFromWhatYouNeed": "Start from what you need",
+    "findTheRightOutfit": "Find the right outfit to be perfect in every occasion",
+    "casualFormalOrSporty": "Casual, formal or sporty? Get inspired by your favourite styles",
+
+    "findYourInspiration": "Find your inspiration",
+    "popular": "Popular",
+    "latest": "Latest",
+    "outiftPreview": "Outfit preview",
+    "articles": "{count} article | {count} articles",
+    "stylist": "Stylist",
+    "occasion": "Occasion",
+    "style": "Style",
+    "article": "Article",
+
+    "results": "No results | {count} result | {count} results",
+    "orderBy": "Order by",
+    "relevance": "Relevance",
+    "price": "Price",
+    "reset": "Reset",
+    "filterBy": "Filter by",
+    "apply": "Apply",
+    "wearability": "Wearability",
+    "priceEUR": "Price €",
+
+
+    "totalPrice": "Total price",
+    "buyTheOutfit": "Buy the outfit",
+    "buySingleItem": "Buy single item",
+    "available": "Available",
+    "notAvailable": "Not available",
+    "chooseYourSize": "Choose your size",
+    "selection": "Selection",
+    "brand": "Brand",
+    "color": "Color",
+    "productDetails": "Product details",
+    "size": "Size",
+    "sizeGuide": "Size guide",
+    "galleryImage": "Gallery image",
+
+    "seeAllOccasionOutfits": "See all '{occasionName}' outfits",
+    "outfitsForEveryOccasion": "Outfits for every occasion",
+
+    "outfitStyles": "Outfit styles",
+    "styleOutfits": "{styleName} outfits",
+    "seeAllStyleOutfits": "See all '{styleName}' outfits"
+}

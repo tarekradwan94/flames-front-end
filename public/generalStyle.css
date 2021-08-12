@@ -1,0 +1,96 @@
+@font-face {
+  /*font-family: 'Avenir LT Std';*/
+  font-family: 'Avenir';
+  src: url('AvenirLTStd-Roman.woff2') format('woff2'),
+      url('AvenirLTStd-Roman.woff') format('woff'),
+      url('AvenirLTStd-Roman.ttf') format('truetype');
+  /*font-weight: normal;
+  font-style: normal;
+  font-display: swap;*/
+}
+
+@font-face {
+  /*font-family: 'Avenir 85';*/
+  font-family: 'Avenir-Heavy';
+  src: url('Avenir-Heavy.woff2') format('woff2'),
+      url('Avenir-Heavy.woff') format('woff'),
+      url('Avenir-Heavy.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/*@font-face {
+  font-family: 'Avenir LT Std';
+  src: url('AvenirLTStd-Book.woff2') format('woff2'),
+      url('AvenirLTStd-Book.woff') format('woff'),
+      url('AvenirLTStd-Book.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Avenir LT Std';
+  src: url('AvenirLTStd-Medium.woff2') format('woff2'),
+      url('AvenirLTStd-Medium.woff') format('woff'),
+      url('AvenirLTStd-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}*/
+
+body {
+    margin: 0px;
+    font-family: Avenir;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition-duration: 0.3s;
+  transition-property: opacity;
+  transition-timing-function: ease;
+}
+
+.fade-enter,
+.fade-leave-active {
+  opacity: 0
+}
+
+button {
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  margin: 0;
+
+  /* remove blue highlighting on mobile */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* remove blue highlighting on mobile */
+button:focus {
+  outline: none !important;
+}
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+[contentEditable=true]:empty:before{
+  content:attr(data-placeholder);
+  color: #a4a4a4;
+  font-weight: 500;
+}

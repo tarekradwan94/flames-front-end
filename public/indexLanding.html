@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="keywords" content="outfit, fashion, look, moda, come abbinare">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
+    <meta name=”robots” content="index, follow">
+    <meta name="description" content="Flames è la tua guida personalizzata agli outfit di tendenza ed ai look più esclusivi del momento">
+    <meta name="author" content="Flames">
+    <title>Flames - La Guida ai trend Fashion del 2021</title>
+
+    <!-- Social meta tags -->
+    <meta property="og:title" content="Flames - La Guida ai trend Fashion del 2021">
+    <meta property="og:description" content="Flames è la tua guida personalizzata agli outfit di tendenza ed ai look più esclusivi del momento">
+    <meta property="og:image" content="img/share.png">
+    <meta property="og:url" content="https://www.flamesfashion.com/">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:site_name" content="Flames">
+    <meta name="twitter:image:alt" content="Flames - Outfits for you.">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/LineIcons.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/nivo-lightbox.css">
+    <link rel="stylesheet" href="css/main.css">    
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!--====== Favicon Icon ======-->
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+<!-- Begin Sendinblue Form -->
+<!-- START - We recommend to place the below code in head tag of your website html  -->
+<style>
+  #sib-container input:-ms-input-placeholder {
+    text-align: left;
+    font-family: 'Work Sans', Helvetica, sans-serif;
+    color: #c0ccda;
+  }
+
+  #sib-container input::placeholder {
+    text-align: left;
+    font-family: 'Work Sans', Helvetica, sans-serif;
+    color: #c0ccda;
+  }
+
+  #sib-container textarea::placeholder {
+    text-align: left;
+    font-family: 'Work Sans', Helvetica, sans-serif;
+    color: #c0ccda;
+  }
+</style>
+<link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css">
+<!--  END - We recommend to place the above code in head tag of your website html -->
+
+
+  </head>
+  
+  <body>
+
+    <div id="landingContents">
+      
+    </div>
+    <!-- End Preloader -->
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="js/jquery-min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.js"></script>      
+    <script src="js/jquery.nav.js"></script>    
+    <script src="js/jquery.easing.min.js"></script>     
+    <script src="js/nivo-lightbox.js"></script>     
+    <script src="js/jquery.magnific-popup.min.js"></script>     
+    <script src="js/form-validator.min.js"></script>
+    <script src="js/contact-form-script.js"></script>
+    <!-- START - We recommend to place the below code in footer or bottom of your website html  -->
+    <script>
+      window.REQUIRED_CODE_ERROR_MESSAGE = 'Scegli un prefisso paese';
+
+      window.EMAIL_INVALID_MESSAGE = window.SMS_INVALID_MESSAGE = "Le informazioni fornite non sono valide. Controlla il formato del campo e riprova.";
+
+      window.REQUIRED_ERROR_MESSAGE = "Questo campo non può essere lasciato vuoto. ";
+
+      window.GENERIC_INVALID_MESSAGE = "Le informazioni fornite non sono valide. Controlla il formato del campo e riprova.";
+
+
+
+
+      window.translation = {
+        common: {
+          selectedList: '{quantity} lista selezionata',
+          selectedLists: '{quantity} liste selezionate'
+        }
+      };
+
+      var AUTOHIDE = Boolean(0);
+
+      const queryString = window.location.search;
+      const urlParams = new URLSearchParams(queryString);
+      const landingUniqueName = urlParams.get('landing');
+
+      $.ajax({
+        url: "https://api.flamesfashion.com/landing/" + landingUniqueName,
+        headers: {"Flames-language": "it"},
+        xhrFields: {
+          withCredentials: true
+        },
+        success: function( data ) {
+          $( "#landingContents" ).html( data.contents );
+        }
+      });
+
+      function createLead() {
+        let leadEmail = document.getElementById("EMAIL").value;
+        $.ajax({
+          type: "POST",
+          data: JSON.stringify({"email": leadEmail}),
+          contentType: "application/json; charset=utf-8",
+          dataType: "json",
+          url: "https://api.flamesfashion.com/lead",
+          headers: {"Flames-language": "it"},
+          xhrFields: {
+            withCredentials: true
+          },
+          success: function( data ) {
+            
+          }
+        });
+      }
+    </script>
+
+    <!-- END - We recommend to place the above code in footer or bottom of your website html  -->
+    <!-- End Sendinblue Form -->
+    
+  </body>
+</html>
